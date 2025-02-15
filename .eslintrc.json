@@ -1,0 +1,11 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // Disable the "no-unused-vars" rule
+    "no-unused-vars": "off",
+    // Disable "react/no-unescaped-entities" rule (this could be helpful if you're working with JSX)
+    "react/no-unescaped-entities": "off",
+    // Disable "react/react-in-jsx-scope" rule (useful if you're using Next.js with React 17+)
+    "react/react-in-jsx-scope": "off"
+  }
+}
